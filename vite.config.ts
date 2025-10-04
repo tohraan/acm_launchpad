@@ -3,7 +3,9 @@ import path from "path";
 
 export default defineConfig({
   base: "./",
-  build: { outDir: "dist" },
+  build: {
+    outDir: "dist"
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
